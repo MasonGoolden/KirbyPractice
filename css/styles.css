@@ -1,0 +1,145 @@
+/* CSS Document */
+
+
+/* Colors
+
+1A659E - lapis lazuli
+F7B2BD - Cherry blossom pink
+A1CDF4 - light sky blue
+bde0fe - blue
+f4acb7 - tan pink
+ffcad4 - light pink
+ffacc5 - pink
+ff97b7 - another pink
+
+*/
+
+/* Fonts
+font-family: 'Anton', sans-serif; -h1
+font-family: 'Bitter', serif; -p
+font-family: 'Sigmar', cursive; -h2
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&family=Sigmar&display=swap');
+
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body{
+	
+}
+
+nav {
+	background-color: #ffcad4;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+
+nav ul{
+    
+}
+
+nav li {
+	display: inline-block;
+    padding: 1% 2%;
+    font-family: 'Sigmar', cursive;
+    
+}
+
+nav a{
+	color: #8f2d56;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+	color: #F7B2BD;
+    background-color: #8f2d56;
+}
+
+#imageindex{
+
+	display: inline-block;
+	
+}
+
+#imageconcept{
+	float: left;
+	background-color: #F7B2BD;
+}
+
+main{
+	background-color: #F7B2BD;
+    min-height: 500px;
+}
+
+main img{
+    display: inherit;
+	margin: 0 auto;
+    border: 10px solid #F39A9D;
+}
+
+main div{
+    float: top;
+  
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 3em;
+	
+}
+
+h2{
+	font-family: 'Sigmar', cursive;
+	font-size: 2em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.concepth2 {
+	text-align: center;
+}
+table {
+    width: 100%;
+}
+
+p{
+	font-family: 'Bitter', serif;
+	font-size: 1.6em;
+	padding-bottom: 1%;
+	padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+blockquote{
+	
+}
+
+form{
+    text-align: center;
+}
+
+main label{
+    font-size: 1.3em;
+    font-family: 'Sigmar', cursive;
+}
+
+main input{
+   
+  
+}
+
+footer{
+	
+}
+
+.fnav {
+	
+}
